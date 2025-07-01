@@ -21,9 +21,8 @@ def calcular_total():
         file.write(f"\nInicio: $5.000")
         file.write(f"TRANSFERENCIA: ${transferencia}".replace(",", ".") + "\n")
         file.write(f"TOTAL MONEDAS: ${totalmonedas:,}".replace(",", ".") + "\n")
-        file.write(f"BILLETES: ${billetes}".replace(",", ".") + "\n")
+        file.write(f"\nBILLETES: ${billetes}".replace(",", ".") + "\n")
         file.write(f"\nTOTAL INGRESADO: ${total:,}".replace(",", ".") + "\n")
         file.write(f"TOTAL INGRESADO - 20.000 <- (+ INICIO) = ${total - 20000:,}".replace(",", ".") + "\n")
-
     print("\nEl resultado ha sido guardardo en el archivo de texto: 'resultado.txt'")
 calcular_total()
