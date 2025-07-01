@@ -7,7 +7,6 @@ while comprobar == True:
        for i in range (1,11):
         #print(n, "por", i, "es igual a:", n*i)
         print(f"{n} * {i} = {x}")
-        
         comprobar = False  
     else:
         print("El número ingresado no es correcto. Inténtelo nuevamente")
