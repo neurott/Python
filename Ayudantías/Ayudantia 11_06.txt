@@ -1,0 +1,29 @@
+Ejercicio 1: Agenda de Contactos
+Enunciado:
+
+Crea un programa en Python que funcione como una agenda de contactos. El programa debe mostrar un menú con las siguientes opciones:
+
+Agregar contacto: Solicita al usuario el nombre y número de teléfono del contacto. Guarda esta información en un diccionario donde el nombre será la clave y el número de teléfono el valor.
+
+Mostrar todos los contactos: Muestra por pantalla todos los contactos guardados en el diccionario, uno por línea con el formato nombre: teléfono. Si no hay contactos, muestra un mensaje indicándolo.
+
+Salir: Termina el programa.
+
+El menú debe repetirse continuamente hasta que el usuario seleccione la opción de salir. Asegúrate de validar las opciones ingresadas y mostrar un mensaje adecuado en caso de que el usuario introduzca una opción no válida
+
+
+Ejercicio 2: Sistema de Inventario de Productos
+Enunciado:
+
+Crea un programa en Python que permita gestionar un inventario de productos. El programa debe permitir al usuario:
+
+Agregar producto: Pide el nombre del producto, su precio y la cantidad disponible. Si el producto ya existe en el inventario, muestra un mensaje informando de ello. Guarda los datos en un diccionario donde cada clave es el nombre del producto y el valor es otro diccionario con las claves "precio" y "cantidad".
+
+Mostrar inventario: Muestra todos los productos en el inventario junto con su precio y cantidad disponible. Si no hay productos, muestra un mensaje adecuado.
+
+Vender producto: Solicita el nombre del producto y la cantidad que se desea vender. Verifica si el producto existe y si hay suficiente stock. Si es así, descuenta la cantidad vendida. Si no hay suficiente, muestra un mensaje de advertencia. Si al vender se agota el stock, muestra un mensaje informando que el producto está agotado.
+
+Salir: Termina el programa.
+
+
+El programa debe repetirse continuamente hasta que el usuario elija salir. También debe validar que las opciones seleccionadas sean válidas.

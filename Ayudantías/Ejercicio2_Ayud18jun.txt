@@ -1,0 +1,12 @@
+Desarrolla un programa que permita a una persona llevar el control de los productos que necesita comprar. El programa debe mostrar un menú interactivo, donde el usuario pueda:
+
+Agregar un nuevo artículo a la lista de compras.
+
+Ver la lista completa de artículos agregados.
+
+Eliminar un artículo indicando su nombre exacto.
+
+Salir del programa.
+
+
+El sistema debe guardar los artículos en una lista de Python y usar funciones definidas por el usuario para cada operación. Se deben manejar correctamente los errores (por ejemplo, al intentar eliminar un artículo que no existe) y aplicar strip() para limpiar los espacios de los inputs.

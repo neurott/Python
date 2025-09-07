@@ -1,0 +1,11 @@
+Crea un programa que permita al usuario gestionar una lista de tareas pendientes. El sistema debe mostrar un menú de opciones, y cada acción debe estar implementada mediante una función separada. El usuario debe poder:
+
+Agregar una nueva tarea.
+
+Visualizar todas las tareas ingresadas con su número correspondiente.
+
+Eliminar una tarea indicando su número en la lista.
+
+Salir del programa.
+
+El programa debe utilizar una lista para almacenar las tareas y aplicar buenas prácticas de programación, como el uso de funciones para modularizar el código y validaciones para evitar errores comunes (por ejemplo, intentar eliminar una tarea fuera de rango o escribir letras en lugar de números). 
