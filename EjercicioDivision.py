@@ -2,11 +2,8 @@
 #Si la división resulta en 1, se felicita al usuario y termina el programa. 
 #Si el resultado es distinto de 1 o -1, el programa continuará hasta completar los 3 intentos o encontrar el resultado deseado.
 #También se debe manejar el error de división por cero con una excepción.
-
 import random as randomint
-
 #Realizar la división
-
 for i in range(3):
     num1 = randomint.randint(-3, 3)
     num2 = randomint.randint(-3, 3)

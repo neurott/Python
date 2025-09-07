@@ -10,40 +10,51 @@
 biblioteca = {}
 
 while True:
-    print("\nMenú")
+    print("\nMenú interactivo")
     print("1. Agregar un libro")
     print("2. Ver todos los libros")
     print("3. Salir")
 
     try:
-        op = int(input("Seleccione una opción (1-3):"))
-
+        op = int(input("Seleccione una opción (1-3): "))
     except:
         print("Error")
         continue
-
+#Revisar if 1 en la casa    
     if op == 1:
         titulo = input("Título: ")
         autor = input("Autor: ")
-        año = int(input("Año de publicación: "))
+        try:
+            año = int(input("Año de publicacon: "))
+
+        except ValueError:
+            print("Error")
+            continue
         genero = input("Género: ")
 
         biblioteca[titulo] = {
             "autor": autor,
             "año": año,
-            "genero": genero
+            "género": genero
         }
-        print("\nSe agregó el libro con éxito.")
+        print("\nSe agregó el libro con éxito")
 
-    elif op == 2: #Se me borraron los comentarios?
+    elif op == 2:
+        #if not biblioteca:
         if len(biblioteca) == 0:
-            print("Biblioteca esta vacía")
+            print("Biblioteca vacía...")
         else:
-            print("\nLibros en biblioteca: ")
+            print("\nLibros que se encuentran en la biblioteca:")
+            #print(biblioteca)
             for titulo, datos in biblioteca.items():
                 print(f"\nTítulo: {titulo}")
                 print(f"Autor: {datos['autor']}")
                 print(f"Año: {datos['año']}")
-                print(f"Género: {datos['genero']}")
+                print(f"Género: {datos['género']}")
     elif op == 3:
+        print("Saliendo....")
         break
+    else:
+        print("ERRORRR")
+
+

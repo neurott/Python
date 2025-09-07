@@ -54,7 +54,7 @@
 #print("El número más grande es: ", max)
 
 #Agregar mas de un elemento a la vez usando .extend()
-#frutas = ["manzana", "palta", "sandía"]
-#print(frutas)
-#frutas.extend(["melón","coco","piña"])
-#print(frutas)
+frutas = ["manzana", "palta", "sandía"]
+print(frutas)
+frutas.extend(["melón","coco","piña"])
+print(frutas)

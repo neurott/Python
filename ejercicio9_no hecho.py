@@ -1,0 +1,1 @@
+##9. Ingrese dos números, muestre la suma del doble del primero más el cuadrado del segundo.

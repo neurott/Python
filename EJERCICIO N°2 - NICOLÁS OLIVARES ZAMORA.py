@@ -4,7 +4,7 @@ entradas = 50
 resta = None
 while True:
     print("\n***** Cine Estrella *****")
-    print("Bienvenido al sistema de venta de entradas del Cine Estrella")
+    print("Bienvenido al sistema de venta de entras del Cine Estrella")
     print("1. Ver cuantas entradas quedan")
     print("2. Comprar una cantidad de entradas")
     print("3. Devolver entradas")
@@ -38,6 +38,9 @@ while True:
             break
         else:
             print("Opción no válida. Por favor, seleccione una opción del 1 al 4.")
+    
+
+
     except:
         print("Opción no válida. Por favor, seleccione una opción del 1 al 4. ")
         continue

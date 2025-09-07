@@ -28,7 +28,7 @@ while True:
         elif op == 2:
             cupos -= 1
         elif op == '3':
-            cupos -= 1
+            cupos -= 1x
         elif op == '4':
             print(cupos)
         else:

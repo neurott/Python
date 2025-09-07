@@ -15,7 +15,7 @@ biblioteca["1984"] = {
     "género": "Distopía"
 }
 
-
+print(biblioteca)
 #imprimir solo claves (títulos)
 print("\nTítulos de los libros: ")
 print(biblioteca.keys())
