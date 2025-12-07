@@ -1,12 +1,12 @@
 #Ejercicio: Menú interactivo para agregar libros a la biblioteca. Enunciado:
-#Crea un programa que permita a un usuario gestionar una biblioteca de libros.
-#El programa debe tener un menú con las siguientes opciones:
+#Crea un programa que permita a un usuario gestionar una biblioteca de libros. El programa debe tener un menú con las siguientes opciones:
 #Agregar un libro: El usuario ingresará el título, el autor, el año y el género del libro.
 #Ver todos los libros: El programa mostrará todos los libros en la biblioteca (diccionario).
 #Salir: Termina el programa.
-#El diccionario biblioteca debe almacenar los libros como clave (el título del libro)
-#y los valores como otro diccionario que contenga:
-#Autor - Año de publicación - Género literario
+#El diccionario biblioteca debe almacenar los libros como clave (el título del libro) y los valores como otro diccionario que contenga:
+#Autor
+#Año de publicación
+#Género literario
 biblioteca = {}
 
 while True:
@@ -17,6 +17,7 @@ while True:
 
     try:
         op = int(input("Seleccione una opción (1-3):"))
+
     except:
         print("Error")
         continue
@@ -34,7 +35,7 @@ while True:
         }
         print("\nSe agregó el libro con éxito.")
 
-    elif op == 2:
+    elif op == 2: #Se me borraron los comentarios?
         if len(biblioteca) == 0:
             print("Biblioteca esta vacía")
         else:
