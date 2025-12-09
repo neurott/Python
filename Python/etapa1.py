@@ -17,11 +17,10 @@ if (usuario ==user1 and contraseña == contrasena1) or (usuario == user2 and con
     print(f"Ha ingreasdo con éxito: {usuario}")
 else:
     print("Error")'''
-
-#diccionario
+# diccionario
 usuarios = {
-    "pedro":"1234",
-    "angel":"a4s1"
+    "pedro": "1234",
+    "angel": "a4s1"
 }
 
 while True:
@@ -41,6 +40,3 @@ while True:
     except Exception as e:
         print(f"Ha ocurrido un error inesperado : {e}")
         break
-
-
-
